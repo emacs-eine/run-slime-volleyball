@@ -1,13 +1,13 @@
 ;; -*- mode: eask; lexical-binding: t -*-
 
-(package "run-slime-volleyball"
+(package "x-slime-volleyball"
          "1.0.0"
          "Run slime-volleyball")
 
-(website-url "https://github.com/emacs-eine/run-slime-volleyball")
+(website-url "https://github.com/emacs-eine/x-slime-volleyball")
 (keywords "games")
 
-(package-file "run-slime-volleyball.el")
+(package-file "x-slime-volleyball.el")
 
 (script "test" "echo \"Error: no test specified\" && exit 1")
 

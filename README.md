@@ -1,10 +1,10 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-[![EINE Elpa](https://raw.githubusercontent.com/emacs-eine/badges/main/elpa/v/run-slime-volleyball.svg)](https://emacs-eine.github.io/elpa/#/run-slime-volleyball)
+[![EINE Elpa](https://raw.githubusercontent.com/emacs-eine/badges/main/elpa/v/x-slime-volleyball.svg)](https://emacs-eine.github.io/elpa/#/x-slime-volleyball)
 
-# run-slime-volleyball
+# x-slime-volleyball
 > Play slime-volleyball
 
-[![CI](https://github.com/emacs-eine/run-slime-volleyball/actions/workflows/test.yml/badge.svg)](https://github.com/emacs-eine/run-slime-volleyball/actions/workflows/test.yml)
+[![CI](https://github.com/emacs-eine/x-slime-volleyball/actions/workflows/test.yml/badge.svg)](https://github.com/emacs-eine/x-slime-volleyball/actions/workflows/test.yml)
 
 <img src="./etc/1.png" alt="" width="50%"/>
 
@@ -22,7 +22,7 @@ You need to add this line to your Eask file (global recommended).
 Then, install it:
 
 ```console
-eask install -g run-slime-volleyball
+eask install -g x-slime-volleyball
 ```
 
 ## 🔧 Usage
@@ -30,7 +30,7 @@ eask install -g run-slime-volleyball
 To run the simple http server:
 
 ```console
-eask -g exec run-slime-volleyball
+eask -g exec x-slime-volleyball
 ```
 
 ## 🛠️ Contribute
@@ -55,7 +55,7 @@ To run the test locally, you will need the following tools:
 Link this package as a global dependency:
 
 ```sh
-eask -g link add run-slime-volleyball </path/to/project/dir/>
+eask -g link add x-slime-volleyball </path/to/project/dir/>
 ```
 
 *📝 P.S. For more information, find the Eask manual at https://emacs-eask.github.io/.*

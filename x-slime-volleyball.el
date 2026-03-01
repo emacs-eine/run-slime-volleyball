@@ -1,16 +1,14 @@
-#!/bin/sh
-:;#-*-Emacs-Lisp-*-
-
-:;test -n "$EMACS" || EMACS=emacs
-:;test -n "$EASK_EMACS" && EMACS=$EASK_EMACS
-:;exec "$EMACS" -Q -l "$0" -- "$@"
-
-;;; run-slime-volleyball --- Run slime-volleyball  -*- lexical-binding: t; -*-
+;;; x-slime-volleyball.el --- Run slime-volleyball  -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2026  Shen, Jen-Chieh
 
 ;; Author: Shen, Jen-Chieh <jcs090218@gmail.com>
 ;; Maintainer: Shen, Jen-Chieh <jcs090218@gmail.com>
+;; URL: https://github.com/emacs-eine/x-slime-volleyball
+;; Version: 1.0.0
+;; Package-Requires: ((emacs "26.1")
+;;                    (slime-volleyball "1.1"))
+;; Keywords: games
 
 ;; This file is not part of GNU Emacs.
 
@@ -29,13 +27,12 @@
 
 ;;; Commentary:
 ;;
-;; The command-line interface.
+;; Play slime-volleyball.
 ;;
 
 ;;; Code:
 
-(require 'slime-volleyball)
+;; NOTE: For being a package file.
 
-(call-interactively #'slime-volleyball)
-
-;;; run-slime-volleyball ends here
+(provide 'x-slime-volleyball)
+;;; x-slime-volleyball.el ends here
